@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/config'); // assuming you have a database configuration file
+const sequelize = require('../config/config'); 
 
 const Litigation = sequelize.define('Litigation', {
     caseNumber: {
